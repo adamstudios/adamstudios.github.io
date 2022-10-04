@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" href="icons/apple-icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.json" />
+  <meta name="description" content="Leon Portfolio" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <title>I am Adam!👋👋👋</title>
+</head>
+<!--<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>-->
+
+<body class="dark" onload="getTheme()">
+  <script src="main.js"></script>
+  <div class="container">
+    <button id="theme" onclick="toggleTheme()">
+      <span class="material-symbols-outlined" id="themeIcon">
+        light_mode
+      </span>
+    </button>
+    <img src="./Assets/Images/logo-no-bg.png" alt="logo" id="logo">
+    <h2>Hello there I am Adam 👋</h2>
+    Tell sth about urself. Ill give u an Example
+    <div class="socials">
+      <h3>My Socials</h3>
+      <a href="https://github.com/adambencherif"><button>Github</button></a>
+      <a href="https://replit.com/@Adam69120"><button>Replit</button></a>
+      <a href="https://discord.com/users/576886466186313730"><button>Discord</button></a>
+      <a href="YOURPAYPAL"><button id="otherBtn">Buy me a Coffee</button></a>
+    </div>
+    <div class="projects">
+      <h3>Some Projects</h3>
+      <div class="galery">
+        <div class="project">
+          <img src="./Assets/Projects/todo.png" alt="todo" class="image">
+          <h4>Project</h4>
+        </div>
+        <div class="project">
+          <img src="./Assets/Projects/auth.png" alt="auth" class="image">
+          <h4>Project</h4>
+        </div>
+        <div class="project">
+          <img src="./Assets/Projects/rps.png" alt="rockpaperscissors" class="image">
+          <h4>Project</h4>
+        </div>
+      </div>
+    </div>
+    <h2>If the website has any bugs please contact me!</h2>
+    <h4>See you soon!</h4>
+  </div>
+</body>
+
+</html>
